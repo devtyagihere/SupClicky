@@ -1,0 +1,20 @@
+# Environment / secrets — never commit these
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# OS artefacts
+.DS_Store
+Thumbs.db

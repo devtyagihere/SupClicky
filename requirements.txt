@@ -1,0 +1,10 @@
+google-genai>=2.3.0
+pynput
+mss
+Pillow
+pyttsx3
+PyYAML
+python-dotenv
+SpeechRecognition
+PyAudio
+pygame

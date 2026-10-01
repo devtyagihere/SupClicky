@@ -1,0 +1,17 @@
+# Clicky configuration
+# Edit these values to customise behaviour.
+
+hotkey: "<ctrl>+<f1>"       # trigger hotkey: capture + ask Gemini
+quit_hotkey: "<alt>+<f1>"   # quit hotkey: cleanly stop Clicky
+
+prompt: "What do you see in this screenshot? Summarize it concisely."
+
+model: "gemini-3.8-flash"
+
+tts:
+  rate: 175      # words per minute
+  volume: 1.0    # 0.0 - 1.0
+
+listen_timeout: 3            # seconds to wait for speech (and max phrase length)
+
+annotation_duration: 5       # seconds to keep screen annotations visible (incl. 1s fade)
